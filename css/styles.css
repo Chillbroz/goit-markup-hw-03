@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #434455;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-color {
+  color: #2e2f42;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #2e2f42;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color:#404BBF;
+}
+
+.add-part{
+  font-style: normal;
+}
+
+.contacts {
+  text-decoration: none;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color:#404BBF;
+}
+
+.main-sect {
+  background: #2e2f42;
+}
+
+.main-sect-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.main-sect-button {
+  background: #4d5ae5;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.main-sect-button:hover,
+.main-sect-button:focus {
+  background:#404BBF;
+}
+
+.team {
+  background:#F4F4FD;
+}
+
+.team-mates {
+  background-color: #FFFFFF;
+}
+
+.sect-title {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.list-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.ft-section {
+  background:#2E2F42;
+}
+
+.studio {
+  color:#F4F4FD;
+}
+
+.ft-text {
+  color:#F4F4FD;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.ft-logo-color {
+  color: #f4f4fd;
+}

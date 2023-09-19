@@ -1,7 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
+  width: 1440px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+.container { 
+  max-width: 1158px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 141px;
+  margin-right: 141px; 
+  }
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -13,14 +47,33 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  padding-top: 25.5px;
+  padding-right: 0;
+  padding-bottom: 25.5px;
+  padding-left: 15px;
 }
 
 .logo-color {
   color: #2e2f42;
+  margin-right: 76px;
 }
 
 .list {
   list-style-type: none;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-li {
+  margin-right: 40px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
 }
 
 .nav-link {
@@ -30,6 +83,9 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .nav-link:hover,
@@ -39,6 +95,20 @@ body {
 
 .add-part{
   font-style: normal;
+  margin-top: 24px;
+  margin-right: ;
+  margin-bottom: 24px;
+  margin-left: 332px;
+}
+
+.add-list {
+  display: flex;
+  align-items: center;
+}
+
+.add-li {
+  padding-right: 15px;
+  margin-left: 40px;
 }
 
 .contacts {
@@ -56,6 +126,7 @@ body {
 
 .main-sect {
   background: #2e2f42;
+  height: 600px;
 }
 
 .main-sect-title {
@@ -65,20 +136,34 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  padding-top: 188px;
+  margin-left: 331px;
 }
 
 .main-sect-button {
+  border-radius: 4px;
   background: #4d5ae5;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: inline-flex;
+  padding: 16px 32px;
+  margin-top: 48px;
+  margin-left: 495px;
 }
 
 .main-sect-button:hover,
 .main-sect-button:focus {
   background:#404BBF;
+}
+
+.list-two {
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .team {

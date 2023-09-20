@@ -11,31 +11,40 @@ body {
   width: 1440px;
 }
 
-h1, h2, h3 {
-  margin: 0;
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
+ul, ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 .container { 
   max-width: 1158px;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: 141px;
-  margin-right: 141px; 
+  margin-right: 141px;
   }
 
 .page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 332px;
 }
 
 .logo {
@@ -47,10 +56,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  padding-top: 25.5px;
-  padding-right: 0;
-  padding-bottom: 25.5px;
-  padding-left: 15px;
 }
 
 .logo-color {
@@ -58,22 +63,12 @@ ul {
   margin-right: 76px;
 }
 
-.list {
-  list-style-type: none;
-}
-
 .nav-list {
   display: flex;
   align-items: center;
-}
-
-.nav-li {
-  margin-right: 40px;
-}
-
-.nav-bar {
-  display: flex;
-  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .nav-link {
@@ -84,7 +79,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -95,20 +89,14 @@ ul {
 
 .add-part{
   font-style: normal;
-  margin-top: 24px;
-  margin-right: ;
-  margin-bottom: 24px;
-  margin-left: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .add-list {
   display: flex;
   align-items: center;
-}
-
-.add-li {
-  padding-right: 15px;
-  margin-left: 40px;
+  gap: 40px;
 }
 
 .contacts {
@@ -136,7 +124,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   padding-top: 188px;
   margin-left: 331px;
 }
@@ -160,18 +148,8 @@ ul {
   background:#404BBF;
 }
 
-.list-two {
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
 .team {
   background:#F4F4FD;
-}
-
-.team-mates {
-  background-color: #FFFFFF;
 }
 
 .sect-title {
@@ -184,22 +162,110 @@ justify-content: space-between;
   text-transform: capitalize;
 }
 
+.list-two {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  flex-basis: calc((100% - 24)/4);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .list-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+}
+
+
+
+.team-title {
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-basis: calc((100% - 24)/4);
+  padding-bottom: 120px;
+}
+
+.team-mates {
+  background-color: #FFFFFF;
+  align-items: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px 
+  rgba(46, 47, 66, 0.08), 
+  0px 1px 1px 0px 
+  rgba(46, 47, 66, 0.16), 
+  0px 1px 6px 0px 
+  rgba(46, 47, 66, 0.08);
+}
+
+.center {
+  text-align: center;
+}
+
+.port-title {
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
+.list-port{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-basis: calc((100% - 24)/3);
+  padding-bottom: 120px;
+}
+
+.border-card {
+  border: 1px solid #E7E9FC;
+  border-top: none;
+  padding-left: 16px;
 }
 
 .ft-section {
   background:#2E2F42;
+  height: 312px;
+}
+
+.footer {
+  padding-top: 101.5px;
+}
+
+.ft-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.ft-logo-color {
+  color: #f4f4fd;
 }
 
 .studio {
@@ -211,8 +277,6 @@ justify-content: space-between;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.ft-logo-color {
-  color: #f4f4fd;
+  width: 264px;
+  margin-top: 17.5px;
 }

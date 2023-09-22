@@ -8,7 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
-  width: 1440px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -31,8 +30,8 @@ img {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 141px;
-  margin-right: 141px;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .header {
@@ -48,7 +47,7 @@ border-bottom: 1px solid #E7E9FC;
 .nav-bar {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
 }
 
 .logo {
@@ -76,12 +75,9 @@ border-bottom: 1px solid #E7E9FC;
 .nav-link {
   color: #2e2f42;
   text-decoration: none;
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em
-  display: flex;
-  align-items: center;
+  letter-spacing: 0.02em;
   padding: 24px 0;
 }
 
@@ -105,9 +101,9 @@ border-bottom: 1px solid #E7E9FC;
 .contacts {
   text-decoration: none;
   color: #434455;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .contacts:hover,
@@ -129,7 +125,7 @@ border-bottom: 1px solid #E7E9FC;
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-left: 331px;
+  margin: 0 auto;
 }
 
 .main-sect-button {
